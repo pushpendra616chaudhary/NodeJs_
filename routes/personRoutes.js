@@ -70,7 +70,7 @@ router.put("/:id", async (req, res) => {
     res.status(500).json({ error: "internal server Error" });
   }
 });
-
+//hey
 router.delete("/:id", async (req, res) => {
   try {
     const personId = req.params.id;
